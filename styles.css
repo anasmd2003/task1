@@ -1,0 +1,172 @@
+/* General Styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    line-height: 1.6;
+}
+
+.navbar {
+    background-color: black;
+    display: flex;
+    justify-content:space-evenly;
+    width: 100%;
+    height: 3rem;
+
+}
+.navbar .logo-div {
+      width: 30%;
+      padding: 10px;
+
+}
+.navbar .logo-div  p {
+    color:#e76f51;
+    font-size: 20px;
+}
+.navbar .nav-links {
+    display: flex;
+    gap: 20px;
+    
+}
+.nav-links li {
+    list-style-type: none;
+    padding: 10px;
+
+}
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+.nav-links a:hover {
+    color: #e76f51;
+}
+
+
+
+/* Hero Section Styling */
+.hero {
+    background-color: #e76f51;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 30rem;
+}
+
+.hero h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+    color: #030303;
+
+}
+
+.hero p {
+    font-size: 22px;
+    margin-bottom: 30px;
+}
+
+.btn {
+    background-color: #f4a261;
+    color: #fff;
+    padding: 5px;
+    border-radius: 5px;
+    text-decoration: none;
+    border-radius: 4px;
+    font-size: 18px;
+}
+
+.btn:hover {
+    background-color:black;
+}
+
+/* Features Section Styling */
+.features {
+    padding: 80px 0;
+    background-color: #f4f4f9;
+    text-align: center;
+}
+
+.features h2 {
+    font-size: 36px;
+    margin-bottom: 40px;
+    color: #2a9d8f;
+}
+
+.feature-grid {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+.feature-box {
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 30%;
+    text-align: center;
+}
+
+.feature-box i {
+    font-size: 40px;
+    margin-bottom: 20px;
+    color: #264653;
+}
+
+.feature-box h3 {
+    font-size: 22px;
+    margin-bottom: 10px;
+    color: #264653;
+}
+
+.feature-box p {
+    font-size: 16px;
+    color: #6c757d;
+}
+
+/* About Section Styling */
+.about {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 80px 0;
+}
+
+.about-content {
+    width: 50%;
+}
+
+.about h2 {
+    font-size: 36px;
+    color: #2a9d8f;
+    margin-bottom: 20px;
+}
+
+.about p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+
+
+
+/* Footer Styling */
+
+footer .container {
+    width: 100%;
+    background-color: black;
+    height: 3rem;
+}
+footer .container p {
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+}
+
